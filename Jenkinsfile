@@ -6,12 +6,12 @@ Pipeline {
     }
 
     environment{
-        SNAP-REPO= 'tynybay-snapshot'
-        RELEASE-REPO= 'tynybay-release'
-        CENTRAL-REPO= 'tynybay-central'
-        NEXUS-GRP-REPO= 'tynybay-group'
-        NEXUS-USER= 'admin'
-        NEXUS-PASS= '123'
+        SNAP_REPO= 'tynybay-snapshot'
+        RELEASE_REPO= 'tynybay-release'
+        CENTRAL_REPO= 'tynybay-central'
+        NEXUS_GRP_REPO= 'tynybay-group'
+        NEXUS_USER= 'admin'
+        NEXUS_PASS= '123'
         NEXUSIP= '172.31.17.97'
         NEXUSPORT= '8081'
         NEXUS_LOGIN= 'nexus-id' 
