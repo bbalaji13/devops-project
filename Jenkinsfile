@@ -7,13 +7,14 @@ pipeline {
     }
 */	
     environment {
-        NEXUS_VERSION = "nexus3"
-        NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "172.31.40.209:8081"
-        NEXUS_REPOSITORY = "vprofile-release"
-	NEXUS_REPOGRP_ID    = "vprofile-grp-repo"
-        NEXUS_CREDENTIAL_ID = "nexuslogin"
-        ARTVERSION = "${env.BUILD_ID}"
+        SNAP-REPO=tynybay-snapshot
+        RELEASE-REPO=tynybay-release
+        CENTRAL-REPO=tynybay-central
+        NEXUS-GRP-REPO=tynybay-group
+        NEXUS-USER=admin
+        NEXUS-PASS=123
+        NEXUSIP=172.31.17.97
+        NEXUSPORT=8081
     }
 	
     stages{
